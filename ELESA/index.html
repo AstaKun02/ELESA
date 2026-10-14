@@ -586,7 +586,7 @@ Sublimez votre intérieur avec ce miroir fait main au cadre ondulé, habillé de
             <div class="space-y-4">
                 <h4 class="font-serif font-bold text-base text-cream">Contact & Social</h4>
                 <ul class="space-y-2 text-sm text-warmgray">
-                    <li><a href="https://instagram.com/elesa.mirrors?cplk=Ym9qdnZndjk1aWxu" class="text-warmgray flex items-center gap-2"><i class="fa-brands fa-instagram text-goldaccent"></i> Instagram bientôt disponible</span></li>
+                    <li><a href="" class="text-warmgray flex items-center gap-2"><i class="fa-brands fa-instagram text-goldaccent"></i> Instagram bientôt disponible</span></li>
                     <li><a href="https://wa.me/212762862869" target="_blank" rel="noopener noreferrer" class="hover:text-goldaccent transition-colors flex items-center gap-2"><i class="fa-brands fa-whatsapp text-goldaccent"></i> WhatsApp : 076 286 2869</a></li>
                 </ul>
             </div>
@@ -749,6 +749,23 @@ Merci de confirmer le prix final, les délais et les frais de livraison avant va
             document.querySelectorAll('.size-btn').forEach(btn => btn.setAttribute('aria-pressed', 'false'));
             setShape('Round'); setColor('Beige', '#D8CCA3'); setSize('Small', '40 × 40 cm'); updatePreviewVisual();
         });
-    </script>
+    </script><script type="text/javascript">
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
+          })
+          .join("?");
+        window.history.replaceState(
+          null,
+          null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    })(window.location);
+  </script>
 </body>
 </html>
